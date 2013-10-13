@@ -1,0 +1,21 @@
+{
+    "name": "GFChat",
+    "preferGlobal": "true",
+    "version": "0.0.1",
+    "author": "Guillaume FRANCHET <g.franchet@gfranchet.fr>",
+    "contributors": {
+        "name": "Guillaume FRANCHET",
+        "email": "g.franchet@gfranchet.tk"
+    },
+    "main": "gfchat",
+    "private": true,
+    "scripts": {
+        "start": "node serveur"
+    },
+    "dependencies": {
+        "deployd": "*"
+    },
+    "engines": {
+        "node": ">=0.6"
+    }
+}

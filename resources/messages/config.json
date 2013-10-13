@@ -1,0 +1,29 @@
+{
+	"type": "Collection",
+	"properties": {
+		"envoyeur": {
+			"name": "envoyeur",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "envoyeur",
+			"order": 0
+		},
+		"message": {
+			"name": "message",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "message",
+			"order": 1
+		},
+		"temps": {
+			"name": "temps",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "temps",
+			"order": 2
+		}
+	}
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>GFChat</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
+        <meta name="author" content="Guillaume FRANCHET">
+        <meta name="description" content="Mon chat personnel">
+        <!-- Le style -->
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css" rel="stylesheet">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+        <link href="/css/style.css" rel="stylesheet" media="screen">
+        <!-- Le HTML5 shim, pour le support IE6-8 des éléments HTML5 -->
+        <!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+		<!-- Le fav et icones tactiles -->
+		<link rel="shortcut icon" type="image/x-icon" href="//cdn.gfranchet.fr.eu.org/ico/favicon.ico">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <header class="page-header">
+                    <hgroup>
+                        <h1>GFChat</h1>
+                        <h2>Le Chat de Guillaume FRANCHET</h2>
+                    </hgroup>
+                </header>
+                <section>
+                    <article class="panel panel-primary">
+                        <header clas="panel-heading"><h2 class="panel-title">Le Chat</h2></header>
+                        <div class="panel-body">
+                            <ul class="list-group col-lg-10">
+                                <li class="list-group-item"><form class="form-inline" role="form">
+                                    <div class="form-group col-lg-2">
+                                        <input type="text" class="form-control" id="nom" placeholder="Nom">
+                                    </div>
+                                    <div class="form-group col-lg-8">
+                                        <input type="text" class="form-control" id="message">
+                                    </div>
+                                    <div class="form-group">
+                                        <button id="env-btn" class="btn btn-primary">Envoyer</button>
+                                    </div>
+                                </form></li>
+                                <li class="list-group-item"><div id="chat"></div></li>
+                            </ul>
+                            <aside>
+                                <!--<b>Utilisateurs en ligne:</b>-->
+                                <div id="nomu" class="text-center"></div>
+                            </aside>
+                        </div>
+                    </article>
+                </section>
+                <!--<footer class="text-center">
+                    Créé par Guillaume FRANCHET
+                </footer>-->
+            </div>
+        </div>
+        <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="/dpd.js"></script>
+		<script type="text/javascript" src="/js/gfchat.js"></script>
+    </body>
+</html>

@@ -1,0 +1,83 @@
+/* Installation des polices personnalisé */
+@font-face {
+    font-weight: normal;
+    font-style: normal;
+}
+/* Général */
+* {
+    margin: 0;
+    padding: 0;
+}
+hr {
+    border-color: black;
+}
+/* Titres */
+article header h2 {
+    color: white;
+}
+/* Liens */
+a {
+    color: #8AC800;
+}
+a:hover {
+    text-decoration: none;
+}
+/* Fond */
+body {
+    background-color: navy;
+    background-image: -webkit-gradient(linear, left top, right top, from(navy), to(midnightblue), color-stop(0.5, blue));
+    background-image: -webkit-linear-gradient(left, navy 0%, blue 50%, midnightblue 100%);
+    background-image: -moz-linear-gradient(left, navy, blue 50%, midnightblue);
+    background-image: -o-linear-gradient(left, navy, blue 50%, midnightblue);
+    background-image: linear-gradient(left, navy, blue 50%, midnightblue);
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+/* En-Tête */
+/* HEADER */
+hgroup { margin: 20px 0 40px }
+hgroup h1 {
+	font: 40px/54px HighlandGothicLightFLFRegular, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: seagreen;
+	text-shadow: -1px -1px 0 #650000, 0 0 10px rgba(255,255,255,0.7);
+}
+hgroup h1 a:hover { border: none }
+hgroup h2 {
+	font: 14px/20px Colaborate-RegularRegular, "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	color: white;
+}
+/* Navbar */
+.navbar-inner {
+    border-color: darkblue;
+    background-color: darkblue;
+    background-image: -moz-linear-gradient(right, darkblue, limedarkblue);
+    background-image: -ms-linear-gradient(right, darkblue, limedarkblue);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(darkblue), to(limedarkblue));
+    background-image: -webkit-linear-gradient(right, darkblue, limedarkblue);
+    background-image: -o-linear-gradient(right, darkblue, limedarkblue);
+    background-image: linear-gradient(right, darkblue, limedarkblue);
+    background-repeat: repeat-x;
+    /* filtre IE8-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='darkblue', endColorstr='limedarkblue', GradientType=0);
+}
+/* Boîte de Chat */
+/*#chat {
+	margin-top: 20px;
+	padding: 10px;
+	height: 300px;
+	border: 1px #CCCCCC solid;
+	overflow-y: scroll;
+}*/
+/* Pied */
+footer {
+    color: white;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -o-border-radius: 15px;
+    box-shadow: 0 0 10px #629996;
+    -moz-box-shadow: 0 0 10px #629996;
+    -ms-box-shadow: 0 0 10px #629996;
+    -webkit-box-shadow: 0 0 10px #629996;
+    -o-box-shadow: 0 0 10px #629996;
+}
