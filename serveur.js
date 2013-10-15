@@ -2,7 +2,7 @@
 var deployd = require('deployd');
 
 var serveur = deployd({
-    port: process.env.PORT,
+    port: process.env.PORT || 1359,
     env: 'development',
     db: {
         host: 'widmore.mongohq.com',
