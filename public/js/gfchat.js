@@ -1,11 +1,11 @@
 $(document).ready(function() {
     dpd.messages.on('creer', function(message) {
-        
+        renduMessage(message);
     });
     dpd.messages.get(function(messages) {
         if(messages) {
             messages.forEach(function(m) {
-                
+                renduMessage(m);
             });
         }
     });
