@@ -9,8 +9,8 @@ var serveur = deployd({
         port: 10000,
         name: 'gfchat',
         credentials: {
-            username: 'Guillaume',
-            password: 'diable11'
+            username: '*********',
+            password: '******'
         }
     }
 });
